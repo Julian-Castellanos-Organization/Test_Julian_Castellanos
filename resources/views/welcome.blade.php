@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Kuepa Test Company</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,17 +81,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Welcome Test Julian!
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://co.linkedin.com/in/juli%C3%A1n-jos%C3%A9-castellanos-uribe-7763a2178">LinkedIn</a>
+                    <a href="https://api.whatsapp.com/send?phone=+573508084099&text=Hello%20Julian%20Jose%20Castellanos%20Uribe%20">WhatsApp</a>
+                    <a href="mailto:guitarrajulian@hotmail.com?subject=Julian%20Test%20Project%20GitHub!">Mail</a>
+                    <a href="https://github.com/JULIAN4270">GitHub</a>
+                    <a href="http://localhost:8000/TestDB">TESTDB</a>
                 </div>
             </div>
         </div>
