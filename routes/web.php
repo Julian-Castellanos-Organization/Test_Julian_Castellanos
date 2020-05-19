@@ -16,5 +16,8 @@ Route::get('/Contact', function () {
     return view('Contact');
 })->name('Contact');
 
+Route::get('/register', function () {
+    return view('register');
+})->name('register');
 
 
