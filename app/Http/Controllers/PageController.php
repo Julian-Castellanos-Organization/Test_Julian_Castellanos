@@ -23,12 +23,21 @@ class PageController extends Controller
         return view('RegistrarEstudiante');
     }
 
-    public function RegisterUser(){
+    public function LoginUser(){
 
     }
 
     public function CrearEstudiante(Request $request){
       //  return $request->all();
+
+      $request->validate([
+          'TxtNombre'=>'required',
+          'TxtApellidos'=>'required',
+          'TxtEmail'=>'required',
+          'TxtTelefono'=>'required',
+          'CntrolPrograma'=>'required', 
+      ]);
+
       $EstudianteNuevo = new App\Estudiante;
       $EstudianteNuevo->Nombre = $request->TxtNombre;
       $EstudianteNuevo->Apellidos = $request->TxtApellidos;
@@ -36,9 +45,7 @@ class PageController extends Controller
       $EstudianteNuevo->Telefono = $request->TxtTelefono;
       $EstudianteNuevo->Programa = $request->CntrolPrograma;
       $EstudianteNuevo->save();
-
       return back()->with('alerta', 'Estudiante Kuepa Creado!!');
-
     }
 
     public function TestDB($nombre = null){

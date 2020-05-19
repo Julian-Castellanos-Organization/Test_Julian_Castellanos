@@ -7,7 +7,7 @@
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
         <title>Kuepa Test Company</title>
-
+        
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -66,6 +66,7 @@
         </style>
     </head>
     <body>
+    <img src="/images/Kuepa.jpg">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -83,9 +84,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    kuepa Test Julian!
+                
                 </div>
-
+                <br><br>
                 <div class="links">
                     <a href="https://co.linkedin.com/in/juli%C3%A1n-jos%C3%A9-castellanos-uribe-7763a2178">LinkedIn</a>
                     <a href="https://api.whatsapp.com/send?phone=+573508084099&text=Hello%20Julian%20Jose%20Castellanos%20Uribe%20">WhatsApp</a>
@@ -94,6 +95,8 @@
                     <a href="http://localhost:8000/TestDB">Reporte de Leads</a>
                     <a href="http://localhost:8000/RegistrarEstudiante">Registro de Estudiantes</a>
                 </div>
+                
+                <img src="/images/Kuepa2.jpg">
             </div>
         </div>
         <!-- Optional JavaScript -->
