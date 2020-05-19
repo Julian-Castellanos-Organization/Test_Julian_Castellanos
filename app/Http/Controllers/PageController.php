@@ -19,7 +19,25 @@ class PageController extends Controller
         return view('Contact');
     }
 
+    public function RegistrarEstudiante(){
+        return view('RegistrarEstudiante');
+    }
+
     public function RegisterUser(){
+
+    }
+
+    public function CrearEstudiante(Request $request){
+      //  return $request->all();
+      $EstudianteNuevo = new App\Estudiante;
+      $EstudianteNuevo->Nombre = $request->TxtNombre;
+      $EstudianteNuevo->Apellidos = $request->TxtApellidos;
+      $EstudianteNuevo->Email = $request->TxtEmail;
+      $EstudianteNuevo->Telefono = $request->TxtTelefono;
+      $EstudianteNuevo->Programa = $request->CntrolPrograma;
+      $EstudianteNuevo->save();
+
+      return back()->with('alerta', 'Estudiante Kuepa Creado!!');
 
     }
 

@@ -91,7 +91,8 @@
                     <a href="https://api.whatsapp.com/send?phone=+573508084099&text=Hello%20Julian%20Jose%20Castellanos%20Uribe%20">WhatsApp</a>
                     <a href="mailto:guitarrajulian@hotmail.com?subject=Julian%20Test%20Project%20GitHub!">Mail</a>
                     <a href="https://github.com/JULIAN4270">GitHub</a>
-                    <a href="http://localhost:8000/TestDB">TESTDB</a>
+                    <a href="http://localhost:8000/TestDB">Reporte de Leads</a>
+                    <a href="http://localhost:8000/RegistrarEstudiante">Registro de Estudiantes</a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 @extends('Template')
 @section('menu')
-<h1>Test MYSQL DB</h1>
+<h1>Reporte de Leads</h1>
 @foreach($users as $item)
 <a href="{{route('TestDB',$item)}}") class="h4 text-danger">{{$item}}</a><br>
 @endforeach
