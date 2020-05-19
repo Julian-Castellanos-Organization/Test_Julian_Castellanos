@@ -1,23 +1,6 @@
 <?php
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/TestDB/{nombre?}', function ($nombre = null) {
-    $users = ['Pepito1','Pepito2','Pepito3'];
-   return view('TestDB',compact('users', 'nombre'));
-})->name('TestDB');
-
-Route::get('/blog', function () {
-    return view('blog');
-})->name('blog');
-
-Route::get('/Contact', function () {
-    return view('Contact');
-})->name('Contact');
-
-Route::get('/register', function () {
-    return view('register');
-})->name('register');
-
-
+Route::get('/', 'PageController@index');
+Route::get('/TestDB/{nombre?}','PageController@TestDB')->name('TestDB');
+Route::get('/blog','PageController@viewlog')->name('blog');
+Route::get('/Contact','PageController@Contactme')->name('Contact');
+Route::get('/register', 'PageController@RegisterUser')->name('register');
