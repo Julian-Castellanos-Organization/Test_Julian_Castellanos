@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App;
 
 class PageController extends Controller
 {
@@ -23,7 +24,8 @@ class PageController extends Controller
     }
 
     public function TestDB($nombre = null){
+        $Estudiantes = App\Estudiante::all();
         $users = ['Pepito1','Pepito2','Pepito3'];
-        return view('TestDB',compact('users', 'nombre'));
+        return view('TestDB',compact('users', 'nombre', 'Estudiantes'));
     }
 }
