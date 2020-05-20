@@ -20,7 +20,7 @@ GitHub Desktop v. 2.0
 Laravel Framework 5.8.38   
 
 ## Licence 📄  
-Test projects are protected by ©copyright for [Julian Jose Castellanos Uribe](mailto:guitarrajulian@hotmail.com?subject=Julian%20Test%20Project%20GitHub!) - see the license file [LICENSE.md](LICENSE.md) for more details.  
+Test projects are protected by ©copyright for [Julian Jose Castellanos Uribe](mailto:guitarrajulian@hotmail.com?subject=Julian%20Test%20Project%20GitHub!) - see the license file [LICENSE](LICENSE) for more details.  
 
 ## Expressions of gratitude 🎁  
 * Parcer@ bien o que! 📢
