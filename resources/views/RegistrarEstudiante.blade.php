@@ -1,6 +1,6 @@
 @extends('Template')
 @section('menu')
-<h1>Registro de Estudiantes Kuepa</h1>
+<h1>INSCRÍBETE AHORA</h1>
 @if (session('alerta'))
 <div class="alert alert-success">
 {{session('alerta')}}
@@ -38,12 +38,12 @@ Debe seleccionar un programa a cursar
 <input type="text" name= "TxtEmail" placeholder="Email" class="form-control mb-2"value="{{old('TxtEmail')}}">
 <input type="text" name= "TxtTelefono" placeholder="Telefono" class="form-control mb-2"value="{{old('TxtTelefono')}}">
 <div class="form-group">
-    <label for="exampleFormControlSelect1">Seleccionar Programa</label>
+    <label for="exampleFormControlSelect1">Quiero estudiar</label>
     <select class="form-control" name = "CntrolPrograma" id="exampleFormControlSelect1">
-      <option>INGLES</option>
-      <option>BACHILLERATO</option>
-      <option>PRE ICFES</option>
-      <option>OTRO</option>
+      <option>Ingles</option>
+      <option>Bachillerato</option>
+      <option>Preicfes</option>
+      <option>Otro</option>
     </select>
   </div>
 <br>
