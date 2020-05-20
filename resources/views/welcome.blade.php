@@ -60,6 +60,20 @@
                 text-transform: uppercase;
             }
 
+            .btn-whatsapp {
+        display:block;
+        width:70px;
+        height:70px;
+        color#fff;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+}
+
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -86,6 +100,11 @@
                 <div class="title m-b-md">
                 
                 </div>
+                <div class="btn-whatsapp">
+<a href="https://api.whatsapp.com/send?phone=+573508084099&text=Hello%20Julian%20Jose%20Castellanos%20Uribe%20" target="_blank">
+<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+</a>
+</div>
                 <br><br>
                 <div class="links">
                     <a href="https://co.linkedin.com/in/juli%C3%A1n-jos%C3%A9-castellanos-uribe-7763a2178">LinkedIn</a>

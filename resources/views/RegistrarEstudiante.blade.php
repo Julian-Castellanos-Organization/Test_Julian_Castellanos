@@ -1,7 +1,7 @@
 @extends('Template')
 @section('menu')
-<font color= "green">La educación que necesitas para mejorar habilidades que te permitan <br>construir tu camino profesional y laboral, pero lo más importante: <br>Cumplir tus sueños</font>
-¡Regístrate ahora o llámanos al 2120282!
+<font color= "#f2652f">La educación que necesitas para mejorar habilidades que te permitan <br>construir tu camino profesional y laboral, pero lo más importante: <br>Cumplir tus sueños</font>
+<br>¡Regístrate ahora o llámanos al 2120282!
 <h1>INSCRÍBETE AHORA</h1>
 @if (session('alerta'))
 <div class="alert alert-success">
