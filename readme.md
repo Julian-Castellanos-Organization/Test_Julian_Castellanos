@@ -1,4 +1,4 @@
-# Kuepa Repository
+# Kuepa Organization - Repository Develop
 Description: Laravel Test Project.   
 ***Date:*** 20/05/2020   
 ***Programming Language:*** PHP, HTML5, CSS, JS    
@@ -10,7 +10,7 @@ Description: Laravel Test Project.
 ***Host:*** 127.0.0.1  
 ***port db:*** 3306  
 ***port:*** 8000  
-***Company:*** KUEPA     
+***Organization:*** KUEPA     
 
 # Basic Crud MYSQL.
 + update Laravel PHP Project.
