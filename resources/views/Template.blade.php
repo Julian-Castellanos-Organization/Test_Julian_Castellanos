@@ -11,6 +11,7 @@
     <title>Template bootstrap</title>
   </head>
   <body>
+  <img src="/images/Kuepa.jpg">
 <div class="container my-5">
 <a href="http://localhost:8000/" class="btn btn-primary">Kuepa</a>
 <a href="{{route('blog')}}" class="btn btn-primary">Nuestros Programas</a>
