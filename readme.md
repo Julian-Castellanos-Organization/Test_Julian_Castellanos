@@ -12,7 +12,7 @@ Description: Laravel Test Project.
 ***port:*** 8000  
 ***Organization:*** KUEPA     
 
-# Basic Crud MYSQL.
+# Basic Crud Laravel.
 + update Laravel PHP Project.
 
 ## Versions 📌  
