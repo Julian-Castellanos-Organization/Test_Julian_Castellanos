@@ -16,7 +16,8 @@ Description: Laravel Test Project.
 + update Laravel PHP Project.
 
 ## Versions 📌  
-GitHub Desktop v. 2.0 Basic Restful Service
+GitHub Desktop v. 2.0  
+Laravel Framework 5.8.38   
 
 ## Licence 📄  
 Test projects are protected by ©copyright for [Julian Jose Castellanos Uribe](mailto:guitarrajulian@hotmail.com?subject=Julian%20Test%20Project%20GitHub!) - see the license file [LICENSE.md](LICENSE.md) for more details.  
