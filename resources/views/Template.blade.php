@@ -16,6 +16,7 @@
 <a href="http://localhost:8000/" class="btn btn-primary">Kuepa</a>
 <a href="{{route('blog')}}" class="btn btn-primary">Nuestros Programas</a>
 <a href="" class="btn btn-primary">Nuestra metodología</a>
+<a href="" class="btn btn-primary">Login leads</a>
 <a href="{{route('Contact')}}" class="btn btn-primary">Contacto</a>
 </div>
   <div class="container">
