@@ -1,16 +1,16 @@
 # Kuepa Repository
-Description: Laravel Test Project.  
-***Date:*** 20/05/2020  
-***Programming Language:*** PHP, HTML5, CSS, JS  
+Description: Laravel Test Project.   
+***Date:*** 20/05/2020   
+***Programming Language:*** PHP, HTML5, CSS, JS    
 
 ## Start 🚀  
 ***Name Project:*** Test_Julian_Castellanos   
-***Framework:*** Laravel Framework 5.8.38
-***Database:*** MySQL Laragon Xampp  
-***Host:*** 127.0.0.1
-***port db:*** 3306
-***port:*** 8000
-***Company:*** KUEPA   
+***Framework:*** Laravel Framework 5.8.38  
+***Database:*** MySQL Laragon Xampp    
+***Host:*** 127.0.0.1  
+***port db:*** 3306  
+***port:*** 8000  
+***Company:*** KUEPA     
 
 # Basic Crud MYSQL.
 + update Laravel PHP Project.
