@@ -15,13 +15,14 @@
 <div class="container my-5">
 <a href="http://localhost:8000/" class="btn btn-primary">Kuepa</a>
 <a href="{{route('blog')}}" class="btn btn-primary">Nuestros Programas</a>
+<a href="" class="btn btn-primary">Nuestra metodología</a>
 <a href="{{route('Contact')}}" class="btn btn-primary">Contacto</a>
 </div>
   <div class="container">
   @yield('menu')
   </div>
 
-  <div class="container bg-dark text-white text-center">©copyright Julian Jose Castellanos Uribe (Test)- Bogotá D.C. Colombia - 2020</div>
+  <div class="container bg-dark text-white text-center">©copyright Julian Jose Castellanos Uribe (Test develop)- Bogotá D.C. Colombia - 2020</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

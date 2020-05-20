@@ -1,5 +1,7 @@
 @extends('Template')
 @section('menu')
+<font color= "green">La educación que necesitas para mejorar habilidades que te permitan <br>construir tu camino profesional y laboral, pero lo más importante: <br>Cumplir tus sueños</font>
+¡Regístrate ahora o llámanos al 2120282!
 <h1>INSCRÍBETE AHORA</h1>
 @if (session('alerta'))
 <div class="alert alert-success">
@@ -47,7 +49,7 @@ Debe seleccionar un programa a cursar
     </select>
   </div>
 <br>
-<button class="btn btn-primary btn-block" type ="submit">Agregar Estudiante</button>
+<button class="btn btn-primary btn-block" type ="submit">Me quiero inscribir</button>
 <br>
 <br>
 </form>
