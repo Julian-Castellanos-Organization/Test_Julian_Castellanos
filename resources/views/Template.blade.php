@@ -12,10 +12,10 @@
   </head>
   <body>
 <div class="container my-5">
-<a href="http://localhost:8000/" class="btn btn-primary">Index</a>
+<a href="http://localhost:8000/" class="btn btn-primary">Kuepa</a>
 <a href="{{route('TestDB')}}" class="btn btn-primary">Ver Estudiantes</a>
 <a href="{{route('blog')}}" class="btn btn-primary">Nuestros Programas</a>
-<a href="{{route('Contact')}}" class="btn btn-primary">Contact me</a>
+<a href="{{route('Contact')}}" class="btn btn-primary">Contacto</a>
 </div>
   <div class="container">
   @yield('menu')
